@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kishu — Gamer from New Delhi</title>
+  <title>Kishu</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
@@ -508,11 +508,20 @@
     }
   </style>
 </head>
+<script>
+function copyDiscord(event) {
+    event.preventDefault();
+
+    navigator.clipboard.writeText("4kishu");
+
+    alert("Discord username copied!\n\nUsername: 4kishu");
+}
+</script>
 <body>
 
 <!-- NAV -->
 <nav id="nav">
-  <div class="nav-logo"><span>🎮</span> kishu</div>
+  <div class="nav-logo"></div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#games">Games</a></li>
@@ -527,20 +536,13 @@
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
 
-  <div class="status-badge">
-    <div class="status-dot"></div>
-    Online · Ready to Queue
-  </div>
-
-  <div class="hero-eyebrow">Gamer · Future Engineer · New Delhi, India</div>
-
   <h1 class="hero-name">
     <span class="glitch-text" data-text="Kishu">Kishu</span><br />
-    <span class="hero-accent">.exe</span>
+    <span class="hero-accent">FPS</span>
   </h1>
 
   <p class="hero-sub">
-    I live in <strong>New Delhi 🇮🇳</strong> and I game — a lot. Horror, survival, souls-like, competitive, cozy — I play everything. Future <strong>Electrical Engineer</strong> in the making, currently grinding ranks and backlogs.
+    I'm from <strong>New Delhi, India</strong> and I game a lot. Horror, survival, souls-like, competitive. I play ANYTHING. Future <strong>Electrical Engineer</strong> in the making, currently grinding games and backlogs.
   </p>
 
   <div class="hero-cta">
@@ -549,35 +551,31 @@
   </div>
 
   <div class="rank-badge">
-    <span class="rank-icon">⚔️</span>
-    Valorant · Platinum II · New Delhi Server
+    <span class="rank-icon">🎮</span>
+    Valorant · Platinum II · Mumbai Server
   </div>
 
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    scroll
-  </div>
 </section>
 
 <!-- TICKER -->
 <div class="ticker-wrap">
   <div class="ticker-track" id="ticker">
-    <span class="ticker-item"><span>🎮</span>Valorant — Platinum II</span>
-    <span class="ticker-item"><span>🧟</span>RE Biohazard — Completed</span>
-    <span class="ticker-item"><span>🧟</span>RE Village — Completed</span>
-    <span class="ticker-item"><span>🌊</span>Subnautica — Completed</span>
-    <span class="ticker-item"><span>⚔️</span>Sekiro — Completed</span>
-    <span class="ticker-item"><span>🧱</span>Minecraft — Ongoing</span>
-    <span class="ticker-item"><span>🌐</span>Roblox — Ongoing</span>
-    <span class="ticker-item"><span>🌸</span>DDLC — Completed</span>
-    <span class="ticker-item"><span>🎮</span>Valorant — Platinum II</span>
-    <span class="ticker-item"><span>🧟</span>RE Biohazard — Completed</span>
-    <span class="ticker-item"><span>🧟</span>RE Village — Completed</span>
-    <span class="ticker-item"><span>🌊</span>Subnautica — Completed</span>
-    <span class="ticker-item"><span>⚔️</span>Sekiro — Completed</span>
-    <span class="ticker-item"><span>🧱</span>Minecraft — Ongoing</span>
-    <span class="ticker-item"><span>🌐</span>Roblox — Ongoing</span>
-    <span class="ticker-item"><span>🌸</span>DDLC — Completed</span>
+    <span class="ticker-item"><span>🎮</span>Valorant - Platinum II</span>
+    <span class="ticker-item"><span>🧟</span>RE Biohazard - Completed</span>
+    <span class="ticker-item"><span>🧟</span>RE Village - Completed</span>
+    <span class="ticker-item"><span>🌊</span>Subnautica - Completed</span>
+    <span class="ticker-item"><span>⚔️</span>Sekiro - Completed</span>
+    <span class="ticker-item"><span>🧱</span>Minecraft - Retired</span>
+    <span class="ticker-item"><span>🌐</span>Roblox - Active</span>
+    <span class="ticker-item"><span>🌸</span>DDLC - Completed</span>
+    <span class="ticker-item"><span>🎮</span>Valorant - Platinum II</span>
+    <span class="ticker-item"><span>🧟</span>RE Biohazard - Completed</span>
+    <span class="ticker-item"><span>🧟</span>RE Village - Completed</span>
+    <span class="ticker-item"><span>🌊</span>Subnautica - Completed</span>
+    <span class="ticker-item"><span>⚔️</span>Sekiro - Completed</span>
+    <span class="ticker-item"><span>🧱</span>Minecraft - Retired</span>
+    <span class="ticker-item"><span>🌐</span>Roblox - Active</span>
+    <span class="ticker-item"><span>🌸</span>DDLC - Completed</span>
   </div>
 </div>
 
@@ -588,9 +586,9 @@
     <div class="section-tag">// 01 — About me</div>
     <h2 class="section-heading">Just a <em>gamer</em> from Delhi.</h2>
     <div class="about-body">
-      <p>Hey, I'm Kishu. I'm from <strong>New Delhi</strong> and I'm a gamer before anything else. Whether it's sweating ranked games in Valorant, getting lost in underwater alien worlds, or absolutely losing my mind in a souls-like — if it's a game, I'm probably interested.</p>
-      <p>I haven't started college yet, but I know exactly where I'm headed: <strong>Electrical Engineering</strong>. Until then? I'm here, gaming, exploring, and figuring things out.</p>
-      <p>This site is my space on the internet. It'll grow as I do — come back later and it'll look very different.</p>
+      <p>Hey, I'm Kishu. I'm from <strong>New Delhi</strong> and I'm a gamer before anything else. Whether it's sweating ranked games in Valorant, getting lost in underwater alien worlds, or absolutely losing my mind in a souls.</p>
+      <p>I haven't started college yet, but I know exactly where I'm headed: <strong>Electrical Engineering</strong>. Until then? I'm here, gaming, and figuring things out.</p>
+      <p>This site is my space on the internet. It'll grow as I do.</p>
     </div>
     <a href="#contact" class="btn btn-outline" style="margin-top:0.5rem">Say hi →</a>
   </div>
@@ -611,7 +609,7 @@
       <div class="tl">&nbsp;&nbsp;<span class="k">"valorant_rank"</span>: <span class="v">"Platinum II"</span>,</div>
       <div class="tl">&nbsp;&nbsp;<span class="k">"genres"</span>: [</div>
       <div class="tl">&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"Horror"</span>, <span class="v">"Survival"</span>,</div>
-      <div class="tl">&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"Souls-like"</span>, <span class="v">"Visual Novel"</span>,</div>
+      <div class="tl">&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"Souls"</span>, <span class="v">"Visual Novel"</span>,</div>
       <div class="tl">&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"FPS"</span>, <span class="v">"Sandbox"</span></div>
       <div class="tl">&nbsp;&nbsp;],</div>
       <div class="tl">&nbsp;&nbsp;<span class="k">"backlog_fear"</span>: <span class="c">true</span>,</div>
@@ -634,7 +632,6 @@
         <button class="filter-tab active" data-filter="all">All</button>
         <button class="filter-tab" data-filter="completed">✅ Completed</button>
         <button class="filter-tab" data-filter="playing">🔥 Playing</button>
-        <button class="filter-tab" data-filter="backlog">📋 Backlog</button>
       </div>
     </div>
 
@@ -648,8 +645,8 @@
         </div>
         <div class="game-title">Valorant</div>
         <div class="game-genre">Tactical FPS · Competitive</div>
-        <div class="game-note">My main competitive game. Grinding ranked every day from New Delhi server.</div>
-        <div class="game-rank">⚔️ Current Rank — Platinum II</div>
+        <div class="game-note">My main competitive game. Grinding ranked almost every night.</div>
+        <div class="game-rank"> Current Rank - Platinum II</div>
       </div>
 
       <!-- COMPLETED -->
@@ -670,7 +667,7 @@
         </div>
         <div class="game-title">Resident Evil Village</div>
         <div class="game-genre">Survival Horror · Action</div>
-        <div class="game-note">Lady Dimitrescu + Castle + Dollmaker = perfect. The whole thing goes places I did not expect.</div>
+        <div class="game-note">Perfect storyline. The whole thing goes places I did not expect.</div>
       </div>
 
       <div class="game-card completed" data-status="completed">
@@ -680,7 +677,7 @@
         </div>
         <div class="game-title">Subnautica</div>
         <div class="game-genre">Survival · Exploration</div>
-        <div class="game-note">Thalassophobia in game form. Absolutely beautiful and absolutely terrifying below 300m.</div>
+        <div class="game-note">Absolutely beautiful and absolutely terrifying.</div>
       </div>
 
       <div class="game-card completed" data-status="completed">
@@ -690,7 +687,7 @@
         </div>
         <div class="game-title">Sekiro: Shadows Die Twice</div>
         <div class="game-genre">Action · Souls-like</div>
-        <div class="game-note">Hardest game I've completed. Genichiro. Isshin. Every boss a lesson. Finishing this felt incredible.</div>
+        <div class="game-note">Hardest game I've played. Finished 100% of it. This one felt incredible.</div>
       </div>
 
       <div class="game-card completed" data-status="completed">
@@ -700,7 +697,7 @@
         </div>
         <div class="game-title">Doki Doki Literature Club</div>
         <div class="game-genre">Visual Novel · Psychological</div>
-        <div class="game-note">Went in expecting a cute VN. Left questioning everything. Monika still watches.</div>
+        <div class="game-note">Completed questioning everything.</div>
       </div>
 
       <!-- ONGOING / PLAYING -->
@@ -711,7 +708,7 @@
         </div>
         <div class="game-title">Minecraft</div>
         <div class="game-genre">Sandbox · Survival</div>
-        <div class="game-note">Never truly "complete." Always a new world, new build, new reason to lose 6 hours.</div>
+        <div class="game-note">Mostly pvp servers. Crystal pvp intermediate</div>
       </div>
 
       <div class="game-card playing" data-status="playing">
@@ -721,18 +718,7 @@
         </div>
         <div class="game-title">Roblox</div>
         <div class="game-genre">Platform · Multiplayer</div>
-        <div class="game-note">Don't underestimate it — some of the most creative games live here. Always something new.</div>
-      </div>
-
-      <!-- BACKLOG PLACEHOLDER -->
-      <div class="game-card backlog" data-status="backlog">
-        <div class="game-card-top">
-          <div class="game-icon">📋</div>
-          <span class="game-status-badge badge-backlog">Backlog</span>
-        </div>
-        <div class="game-title">The Backlog</div>
-        <div class="game-genre">Everything · Someday</div>
-        <div class="game-note">The list never shrinks. More games added here as I discover them. This slot is always full.</div>
+        <div class="game-note">Some of the most creative games(Ex: The Mimic) live here. Always something new.</div>
       </div>
 
     </div>
@@ -744,36 +730,53 @@
   <div class="reveal">
     <div class="section-tag">// 03 — Future</div>
     <h2 class="section-heading">Where I'm <em>headed.</em></h2>
-    <p style="color:var(--slate);font-size:0.95rem;max-width:560px;line-height:1.8">I haven't started college yet — but I know the destination. Here's what's locked in.</p>
   </div>
   <div class="future-grid">
 
-    <!-- College card -->
-    <div class="future-card glow-card reveal">
-      <div class="future-card-icon">🎓</div>
-      <div class="future-card-title">College — TBD</div>
-      <div class="future-card-body">
-        Haven't gotten in yet, but I'm working toward it. When I do, it'll show up right here.<br><br>
-        <strong>Update this when you get in:</strong>
-      </div>
-      <div class="college-input-wrap">
-        <label class="college-input-label" for="collegeInput">Enter your college name</label>
-        <div class="college-row">
-          <input type="text" id="collegeInput" class="college-input" placeholder="e.g. IIT Delhi" maxlength="80" />
-          <button class="college-save-btn" onclick="saveCollege()">Save</button>
-        </div>
-        <div class="college-display" id="collegeDisplay">
-          🎓 Attending: <span id="collegeName"></span>
-        </div>
-      </div>
+<!-- College card -->
+<div class="future-card glow-card reveal">
+  <div class="future-card-icon">🎓</div>
+
+  <div class="future-card-title">
+    College
+  </div>
+
+  <div class="future-card-body">
+
+    <div class="college-status">
+      <strong>Current Status</strong><br>
+      Not enrolled yet
     </div>
+
+    <br>
+
+    <div class="college-status">
+      <strong>Target Degree</strong><br>
+      B.Tech in Electrical Engineering
+    </div>
+
+    <br>
+
+    <div class="college-status">
+      <strong>Future College</strong><br>
+      <span class="college-name">To Be Determined</span>
+    </div>
+
+    <br>
+
+    <p style="opacity:.75;font-size:.95rem;">
+      Looking forward to beginning my engineering journey. This section will be updated once I receive admission.
+    </p>
+
+  </div>
+</div>
 
     <!-- EE card -->
     <div class="future-card ee-card reveal">
       <div class="future-card-icon">⚡</div>
       <div class="future-card-title">Electrical Engineering</div>
       <div class="future-card-body">
-        This is what I'm aiming for. I'm drawn to how the physical and digital world connect — circuits, signals, systems. Engineering is where I want to be.
+        This is what I'm aiming for. I'm drawn to how the physical and digital world connect - circuits, signals, systems. Engineering is where I want to be.
         <br><br>
         <strong>Areas I'm curious about:</strong>
       </div>
@@ -800,22 +803,16 @@
       Want to play something together, talk games, or just say hi from somewhere on the internet? I'm around.
     </p>
     <div class="contact-links">
-      <a href="mailto:you@example.com" class="social-link">
+      <a href="mailto:kishufps@gmail.com" class="social-link">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
         Email
       </a>
-      <a href="https://discord.com/" target="_blank" rel="noopener" class="social-link">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
-        Discord
-      </a>
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-link">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-        GitHub
-      </a>
-      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="social-link">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
-        Twitter / X
-      </a>
+      <a href="#" class="social-link" onclick="copyDiscord(event)">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994"/>
+    </svg>
+    Discord (@4kishu)
+  </a>
     </div>
   </div>
 </section>
@@ -823,7 +820,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-copy">
-    © 2025 Kishu · <a href="https://kishu.2bd.net">kishu.2bd.net</a> · New Delhi 🇮🇳
+    © 2026 Kishu
   </div>
   <a href="#hero" class="footer-back">↑ Back to top</a>
 </footer>
